@@ -3,7 +3,7 @@ import 'package:time_tracker_flutter_course/app/sign_in/email_sign_in_form.dart'
 import 'package:time_tracker_flutter_course/services/auth.dart';
 
 class EmailSignInPage extends StatelessWidget {
-  EmailSignInPage({@required this.auth});
+  EmailSignInPage({required this.auth});
   final AuthBase auth;
 
   @override

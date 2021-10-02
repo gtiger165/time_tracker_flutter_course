@@ -7,7 +7,7 @@ import 'package:time_tracker_flutter_course/services/auth.dart';
 enum EmailSignInFormType { signIn, register }
 
 class EmailSignInForm extends StatefulWidget with EmailAndPasswordValidators {
-  EmailSignInForm({@required this.auth});
+  EmailSignInForm({required this.auth});
   final AuthBase auth;
   @override
   _EmailSignInFormState createState() => _EmailSignInFormState();
